@@ -1,0 +1,250 @@
+body,
+html {
+	width: 100%;
+	height: 100%
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+	display: none
+}
+
+*,
+:after,
+:before {
+	box-sizing: border-box
+}
+
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent
+}
+
+body,
+html {
+	font-family: lato, sans-serif;
+	text-rendering: optimizeLegibility;
+	min-width: 1000px!importlogin
+}
+
+body {
+	background-color: #fff;
+	font-size: 1.5em;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #303f4d;
+	margin: 0;
+	letter-spacing: .01em;
+	-webkit-font-smoothing: loginialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+h1 {
+	font-size: 2.8rem
+}
+
+
+
+body,
+html {
+	min-width: 0!importlogin
+}
+html {
+	font-size: 62.5%;
+	height: 100%
+}
+
+
+
+
+svg:not(:root) {
+	overflow: hidden
+}
+
+
+.formWrapper {
+	display: flex
+}
+
+.formWrapper .formSection,
+.formWrapper .vitallySection {
+	flex: 0 0 50%;
+	height: 100vh
+}
+
+.formWrapper .formSection .innerFormWrapper,
+.formWrapper .vitallySection .innerFormWrapper {
+	padding: 4.5rem;
+	width: 100%;
+	overflow: auto
+}
+
+.formWrapper .vitallySection {
+	background: linear-gradient(to bottom right,#44f2b5,#4cbde2);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center
+}
+
+.formWrapper .vitallySection svg {
+	width: 138px;
+	height: 114px
+}
+
+.formWrapper .vitallySection h1 {
+	font-size: 3.8rem;
+	font-weight: 300;
+	margin-top: 3rem;
+	color: #fff
+}
+
+.formWrapper .vitallySection .bodyFormWrapper {
+	font-size: 2rem;
+	margin-top: 1rem;
+	font-weight: 300
+}
+
+.formWrapper .vitallySection .loginFormWrapper{
+	font-size: 1.3rem;
+	font-weight: 300;
+	margin-top: 3rem;
+	display: block
+}
+
+.formWrapper .vitallySection .loginFormWrapper a {
+	color: #fff;
+	text-decoration: underline
+}
+
+.formWrapper .formSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background-color: #fff;
+}
+
+@media (max-width:50em) {
+	.formWrapper {
+		flex-direction: column
+	}
+	.formWrapper .formSection,
+	.formWrapper .vitallySection {
+		height: auto;
+		flex: 0
+	}
+	.formWrapper .vitallySection h1 {
+		font-size: 2.8rem
+	}
+	.formWrapper .vitallySection .bodyFormWrapper {
+		font-size: 1.8rem
+	}
+}
+
+.formLoginForm {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 425px
+}
+
+.formElement__FormElement__1zNP- {
+	margin-bottom: 2rem;
+}
+.label__Label__37l02 {
+	color: #95acc5;
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	padding-bottom: 1.6rem;
+}
+input:not([type=range]), label, select, summary, textarea {
+	touch-action: manipulation;
+}
+.login-input {
+	box-shadow: 0 0 4px 0 rgba(222,233,242,.4);
+}
+.login-input {
+	font-family: lato,sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	padding: 8px 13px;
+	width: 100%;
+	height: 48px;
+	font-size: 100%;
+	line-height: 1.5;
+	color: #303f4d;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #dee9f2;
+	border-radius: 4px;
+	transition: all .3s;
+}
+.vitallyButton__Button__3MC9n.fullWidth__Button__3ZaIP {
+	width: 100%;
+	justify-content: center;
+}
+.login-btn.login-btn-success {
+	background-image: linear-gradient(90deg,#28E536 0,#44f2b5);
+	border: none;
+}
+.form__LoginForm__GrLn9 button {
+	margin-top: 3rem;
+}
+.login-btn {
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	line-height: 1.4;
+	cursor: pointer;
+}
+.login-btn-success {
+	color: #fff;
+	background-color: #28E536;
+	border-color: #28E536;
+}
+.login-btn-lg {
+	padding: 0 40px;
+	font-size: 120%;
+	border-radius: 4px;
+	height: 48px;
+}
+.login-btn, .login-btn:active, .login-btn:focus {
+	outline: 0;
+}
+.login-btn {
+	line-height: 1.5;
+	display: inline-block;
+	font-weight: 700;
+	text-align: center;
+	touch-action: manipulation;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 0 40px;
+	font-size: 100%;
+	border-radius: 4px;
+	height: 40px;
+	user-select: none;
+	transition: all .3s cubic-bezier(.645,.045,.355,1);
+	position: relative;
+	color: #fff;
+	background-color: #fff;
+	border-color: #dee9f2;
+}
+
